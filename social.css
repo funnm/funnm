@@ -32,3 +32,11 @@
 #social-icon {
     font-size: 2em;
 }
+
+@media (max-width: 414px) {
+    .contenido {
+        width: 74%;
+        margin: auto;
+        height: auto;
+    }
+}
