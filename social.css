@@ -64,8 +64,9 @@
       margin-top: 2em;
     }
   
-    .text-center {
-      margin-top: 10em;
+    .modal-dialog {
+      top: 5em;
+  
     }
 
     #navbarSupportedContent {
