@@ -22,11 +22,18 @@
 
 /*Contenido*/
 
+.contenido {
+    width: 27%;
+    margin: auto;
+    height: auto;
+    margin-top: 4em;
+}
 .modal-content {
     top: 10em;
 }
 
 /*LOGO*/
+
 #logo {
     width: 30px;
     height: 30px;
