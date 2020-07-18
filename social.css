@@ -1,0 +1,74 @@
+/* Redes sociales */
+.social {
+    margin: 3em;
+  }
+  
+  .social p {
+    text-align: center;
+    font-size: 1.6em;
+    margin-bottom: 1em;
+    color: #fff;
+  }
+  
+  .links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .links a {
+    margin: 0 20px;
+  }
+  .fa-twitter {
+    color:  #00acee;
+  }
+  
+  .fa-facebook-f {
+    color:#0553fd;
+  }
+  .fa-youtube {
+    color: #c4302b;
+  }
+  
+  .fa-contact {
+    color: #230303;
+  }
+  
+  #social-icon {
+    font-size: 2.5em;
+  }
+  
+  /*MOBIL*/
+  
+  @media (max-width: 415px) {
+    
+    
+    .footer-container {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 10px;
+      align-items: flex-start;
+      text-align: center;
+    }
+    
+    #logo {
+      margin-left: 11%;
+      margin-right: 3px;
+    } 
+    
+    #social-icon {
+      font-size: 2em;    
+    }
+    .links {
+      margin-left: 2em;
+      margin-top: 2em;
+    }
+  
+    .text-center {
+      margin-top: 10em;
+    }
+
+    #navbarSupportedContent {
+      margin-left: -30em;
+    }
+  }
