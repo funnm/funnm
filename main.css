@@ -1,31 +1,38 @@
-/* Global */
+/*GLOBAL*/
+
 * {
-  box-sizing: border-box;
-  font-family: 'Quicksand', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    box-sizing: border-box;
 }
+
+/*Navegation*/
+
 .nav-item {
-  cursor: pointer;
+    cursor: pointer;
+}
+/*Contact*/
+
+.info {
+    font-size: 2rem;
 }
 
-.container {
-  width: 90%;
-  margin: auto;
+.info span {
+    color: #b70e21;
 }
 
-.footer-container {
-  margin-top: 26.62%;
+/*Contenido*/
+
+.modal-content {
+    top: 10em;
 }
 
-.navbar-nav {
-  margin-left: 513px;
-}
 /*LOGO*/
-#logo {
-  width: 30px;
-  height: 30px;
-  margin-top: -3px;
-  margin-right: .5em;
-  margin-left: 9em;
-  border-radius: .2em;
-}
 
+#logo {
+    width: 30px;
+    height: 30px;
+    margin-top: -3px;
+    margin-right: .5em;
+    margin-left: 9em;
+    border-radius: .2em;
+}
