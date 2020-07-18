@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <link rel="icon" type="image/png" href="img/Logo.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Funny Moments, Momentos divertidos">
+    <title>Funny Moments</title>
+    <!--FONT AWESOME-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
+    <!--FONT-->
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap" rel="stylesheet">
+    <!--CUSTOM CSS-->
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="social.css">
+    <!--BOOTSTRAP-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+    <!--ANIMATED CSSS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" />
+</head>
+
+<body class="bg-secondary">
+    <header>
+        <!-- Navigation -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light animated flipInX">
+            <div class="container">
+                <a class="navbar-brand " href="index.html"><img id="logo" src="img/Logo.png">Funny Moments</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto m-1">
+                        <li class="nav-item">
+                            <a class="nav-link p-1 m-1" href="index.html"> <i class="fas fa-home "></i> Home </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active p-1 m-1" href="contact.html"> <i class="fas fa-support">
+                                </i> Contact US </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled p-1 m-1" href="#""> <i class=" fas fa-cat"></i> </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <hr>
+    </header>
+    <div class="contenido">
+        <div class="card animated flipInY">
+            <div class="card-header bg-dark text-white text-center">
+                <h1 class="info">Contact <span>US</span> </h1>
+            </div>
+            <div class="card-body bg-secondary">
+                <form class="Contact" name="Contact-form" method="post" action="enviar2.php">
+                    <div class="form-group">
+                        <input type="email" name="email" class="form-control" placeholder="Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="mensaje" class="form-control" maxlength="300" placeholder="Mensaje"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-dark btn-block">
+                            SEND
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="footer-container">
+        <!-- Follow -->
+        <section class="social">
+            <h3 class="animated jackInTheBox">Sígueme en mis redes sociales!!!</h3>
+            <div class="links animated rollIn">
+                <a class="nav-item" href="https://facebook.com">
+                    <i id="social-icon" class="fab fa-facebook-f"></i>
+                </a>
+                <a class="nav-item" href="https://twitter.com">
+                    <i id="social-icon" class="fab fa-twitter"></i>
+                </a>
+                <a class="nav-item" href="https://www.youtube.com/channel/UC9bFfyZQFklT_k-I33JblOg">
+                    <i id="social-icon" class="fab fa-youtube"></i>
+                </a>
+                <a class="nav-item" data-toggle="modal" data-target="#Contact">
+                    <i id="social-icon" class="fab fa-Contact"></i>
+                </a>
+            </div>
+        </section>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <!-- Footer -->
+    <footer class="footer text-center .text-dark p-3 bg-light">
+        <h2>Funny Moments &copy</h2>
+    </footer>
+    <!--SCRIPTS NAVEGATION-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
