@@ -27,12 +27,9 @@
 }
 
 /*LOGO*/
-
 #logo {
     width: 30px;
     height: 30px;
-    margin-top: -3px;
-    margin-right: .5em;
-    margin-left: 9em;
-    border-radius: .2em;
+    border-radius: .3em;
+    margin-right: .3em;
 }
