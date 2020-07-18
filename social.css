@@ -32,9 +32,3 @@
 #social-icon {
     font-size: 2em;
 }
-
-@media (max-width: 415px) {
-    #logo {
-    margin-left: 1em;
-    }
-}
